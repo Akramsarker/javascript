@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="items-center">
+    <h1>My First JavaScript</h1>
+  </div>
+  <script>
+  function light(sw) {
+    var pic;
+    if (sw == 0) {
+      pic = "pic_bulboff.gif"
+    } else {
+      pic = "light-2.png"
+    }
+    document.getElementById('myImage').src = pic;
+  }
+  </script>
+  
+  <img id="myImage" src="pic_bulboff.gif">
+  
+  <p>
+    <a class="button-1" onclick="light(1)">Light On</a>
+    <a class="button-2" onclick="light(0)">Light Off</a>
+  </p>
+</body>
+</html>

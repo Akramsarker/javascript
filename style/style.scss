@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
+.items-center{
+    h1{
+        color: #757171;
+        font-size: 4rem;
+        text-shadow: 5px 5px 7px#b4b4a6;
+        margin-bottom: 4rem;
+    }
+}
+p{
+    a{
+       
+        padding: 20px 50px;
+        border: none;
+        margin: 4rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        &:hover{
+            border: none;
+
+        }
+        
+    }
+    .button-1{
+        background: #FAFB07;
+    }
+    .button-2{
+        background: #D5D5D5;
+    }
+
+}

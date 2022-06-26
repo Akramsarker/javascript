@@ -28,9 +28,11 @@ p a:hover {
 
 p .button-1 {
   background: #FAFB07;
+  cursor: pointer;
 }
 
 p .button-2 {
   background: #D5D5D5;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

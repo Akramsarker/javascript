@@ -15,7 +15,6 @@ img{
 }
 p{
     a{
-       
         padding: 20px 50px;
         border: none;
         margin: 4rem;
@@ -29,9 +28,13 @@ p{
     }
     .button-1{
         background: #FAFB07;
+        cursor: pointer;
+
     }
     .button-2{
         background: #D5D5D5;
+        cursor: pointer;
+
     }
 
 }
